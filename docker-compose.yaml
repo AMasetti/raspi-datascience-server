@@ -1,0 +1,8 @@
+services:
+
+  notebook-datascience: 
+    image: datascience-notebook-container
+    ports: 
+      - 1515:8888
+    volumes:
+     - ./Projects:/home/jupyter/Projects
